@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="216.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppDemo.Controller.MangerLoginCtr">
+   <children>
+      <Text layoutX="39.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="请输入管理员密码：" wrappingWidth="213.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="passwordText" layoutX="105.0" layoutY="80.0" prefHeight="35.0" prefWidth="185.0" />
+      <Button fx:id="Btn_submit" layoutX="105.0" layoutY="140.0" mnemonicParsing="false" onAction="#submition" prefHeight="35.0" prefWidth="74.0" text="确认" />
+      <Button fx:id="Btn_exit" layoutX="215.0" layoutY="140.0" mnemonicParsing="false" onAction="#close" prefHeight="35.0" prefWidth="74.0" text="关闭" />
+      <Text fx:id="statusText" fill="#ff0202" layoutX="229.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="122.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

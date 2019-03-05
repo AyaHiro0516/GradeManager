@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppDemo.Controller.changeDataCtr">
+   <children>
+      <Button fx:id="Btn_backward" layoutX="33.0" layoutY="345.0" mnemonicParsing="false" onAction="#backward" prefHeight="30.0" prefWidth="87.0" text="返回" />
+      <Button fx:id="Btn_submit" layoutX="242.0" layoutY="312.0" mnemonicParsing="false" onAction="#submition" prefHeight="48.0" prefWidth="131.0" text="确认" />
+      <Label layoutX="150.0" layoutY="81.0" text="编号：">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="125.0" text="高数：">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="169.0" text="英语：">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="210.0" text="C++：">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="253.0" text="体育：">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="statusText" fill="#fc0101" layoutX="204.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="358.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="userIdText" layoutX="206.0" layoutY="78.0" />
+      <TextField fx:id="mathText" layoutX="206.0" layoutY="122.0" promptText="请务必输入数字(｡･ω･｡)" />
+      <TextField fx:id="engText" layoutX="206.0" layoutY="166.0" promptText="请务必输入数字(*/ω＼*)" />
+      <TextField fx:id="cplusText" layoutX="206.0" layoutY="208.0" promptText="请务必输入数字(*･ω-q) " />
+      <TextField fx:id="PEText" layoutX="206.0" layoutY="251.0" promptText="请务必输入数字(〃'▽'〃)" />
+   </children>
+</AnchorPane>

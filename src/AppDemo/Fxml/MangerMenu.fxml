@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppDemo.Controller.MangerMenuCtr">
+   <children>
+      <Text layoutX="168.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="欢迎大老板，您想干啥？">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="Btn_backward" layoutX="33.0" layoutY="345.0" mnemonicParsing="false" onAction="#backward" prefHeight="30.0" prefWidth="87.0" text="返回" />
+      <Button fx:id="Btn_addData" layoutX="215.0" layoutY="95.0" mnemonicParsing="false" onAction="#addData" prefHeight="58.0" prefWidth="170.0" text="录入学生信息" />
+      <Button fx:id="Btn_searchData" layoutX="215.0" layoutY="211.0" mnemonicParsing="false" onAction="#searchData" prefHeight="30.0" prefWidth="170.0" text="查找学生" />
+      <Button fx:id="Btn_printData" layoutX="215.0" layoutY="260.0" mnemonicParsing="false" onAction="#printData" prefHeight="58.0" prefWidth="170.0" text="打印全部信息" />
+      <TextField fx:id="usernameText" layoutX="215.0" layoutY="170.0" prefHeight="30.0" prefWidth="170.0" promptText="请输入学生名称" />
+   </children>
+</AnchorPane>

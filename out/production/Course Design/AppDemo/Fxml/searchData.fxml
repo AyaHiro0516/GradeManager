@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppDemo.Controller.searchDataCtr">
+   <children>
+      <Text layoutX="125.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="您想对">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="usernameText" fill="#d3118f" layoutX="200.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="59.400390625">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="266.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="这位小老板干什么？">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Button fx:id="Btn_backward" layoutX="33.0" layoutY="345.0" mnemonicParsing="false" onAction="#backward" prefHeight="30.0" prefWidth="87.0" text="返回" />
+      <Button fx:id="Btn_changePassword" layoutX="236.0" layoutY="128.0" mnemonicParsing="false" onAction="#changePassword" prefHeight="46.0" prefWidth="129.0" text="修改密码" />
+      <Button fx:id="Btn_changeData" layoutX="236.0" layoutY="200.0" mnemonicParsing="false" onAction="#changeData" prefHeight="46.0" prefWidth="129.0" text="修改成绩/学号" />
+      <Button fx:id="Btn_delete" layoutX="236.0" layoutY="271.0" mnemonicParsing="false" onAction="#delete" prefHeight="46.0" prefWidth="129.0" text="删除该信息" />
+      <Text fx:id="statusText" fill="RED" layoutX="385.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.400390625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

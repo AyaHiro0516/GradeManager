@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppDemo.Controller.showDataCtr">
+   <children>
+      <Text fx:id="usernameText" fill="#f208ab" layoutX="197.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="74.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="276.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="的成绩单" wrappingWidth="157.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label layoutX="175.0" layoutY="134.0" text="高数：" textFill="#f50808">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="175.0" layoutY="180.0" text="英语：" textFill="#5b04f2">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="224.0" text="C++：" textFill="#cd07b9">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="268.0" text="体育：" textFill="#f89203">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Text fx:id="math" layoutX="276.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="157.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="eng" layoutX="276.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="157.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="cplus" layoutX="276.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="141.4404296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="PE" layoutX="276.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="130.4404296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="Btn_backward" layoutX="33.0" layoutY="345.0" mnemonicParsing="false" onAction="#backward" prefHeight="30.0" prefWidth="87.0" text="返回" />
+   </children>
+</AnchorPane>

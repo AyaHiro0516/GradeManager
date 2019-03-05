@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="297.0" prefWidth="422.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppDemo.Controller.StuLoginCtr">
+   <children>
+      <Text layoutX="63.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="请登录：">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="81.0" layoutY="104.0" prefHeight="37.0" prefWidth="60.0" text="用户名：" />
+      <Label layoutX="85.0" layoutY="159.0" prefHeight="30.0" prefWidth="52.0" text="密码：" />
+      <TextField fx:id="usernameText" layoutX="151.0" layoutY="108.0" prefHeight="30.0" prefWidth="164.0" />
+      <PasswordField fx:id="passwordText" layoutX="151.0" layoutY="159.0" prefHeight="30.0" prefWidth="164.0" />
+      <Button fx:id="Btn_submit" layoutX="81.0" layoutY="216.0" mnemonicParsing="false" onAction="#submition" prefHeight="37.0" prefWidth="77.0" text="确认" />
+      <Button fx:id="Btn_exit" layoutX="238.0" layoutY="216.0" mnemonicParsing="false" onAction="#exit" prefHeight="37.0" prefWidth="77.0" text="关闭" />
+      <Text fx:id="statusText" fill="#06b520" layoutX="158.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="256.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppDemo.Controller.printDataCtr">
+   <children>
+      <TextArea fx:id="dataArea" layoutX="46.0" layoutY="29.0" prefHeight="208.0" prefWidth="509.0" />
+      <Button fx:id="Btn_backward" layoutX="33.0" layoutY="345.0" mnemonicParsing="false" onAction="#backward" prefHeight="30.0" prefWidth="87.0" text="返回" />
+      <Button fx:id="Btn_printData" layoutX="242.0" layoutY="336.0" mnemonicParsing="false" onAction="#printData" prefHeight="48.0" prefWidth="117.0" text="打印" />
+      <Text fx:id="statusText" fill="#f50202" layoutX="369.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="223.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#11c900" layoutX="46.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="请选择打印文件路径：">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Label layoutX="46.0" layoutY="291.0" text="当前路径：" />
+      <TextField fx:id="showFileText" layoutX="121.0" layoutY="286.0" prefHeight="30.0" prefWidth="337.0" />
+      <Button fx:id="Btn_choose" layoutX="480.0" layoutY="286.0" mnemonicParsing="false" onAction="#chooseFile" prefHeight="30.0" prefWidth="75.0" text="选择" />
+   </children>
+</AnchorPane>
